@@ -72,7 +72,7 @@ lightning_module:
             schedule:
               _target_: mattergen.diffusion.d3pm.d3pm.create_discrete_diffusion_schedule
               kind: standard
-              num_steps: 1000
+              num_steps: 100
           offset: 1
       sdes:
         cell:
